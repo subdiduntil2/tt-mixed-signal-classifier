@@ -1405,7 +1405,7 @@ MACRO tt_um_subdiduntil2_mixed_signal_classifier
         RECT 119.840 212.145 121.080 222.780 ;
         RECT 119.775 210.205 121.355 212.145 ;
     END
-  END ua[0]
+  END Vin4
   PIN ua[1]
     DIRECTION INOUT ;
     USE SIGNAL ;
