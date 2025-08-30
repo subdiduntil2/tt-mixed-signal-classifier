@@ -3,7 +3,7 @@ project:
   title:        "Mixed-signal Classifier"      # Project title
   author:       "Emmanouil Anastasios Serlis"      # Your name
   discord:      "subdiduntil"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "A 2-class mixed-signal classifier based on gaussian circuits"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
