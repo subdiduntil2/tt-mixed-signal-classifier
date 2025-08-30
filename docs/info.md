@@ -13,7 +13,7 @@ This project implements a binary classifier with analog and digital inputs.
 
 ## How to test
 
-Explain how to use your project
+Change digital DAC inputs and the analog Vr value and then observe the output pins.
 
 ## External hardware
 
