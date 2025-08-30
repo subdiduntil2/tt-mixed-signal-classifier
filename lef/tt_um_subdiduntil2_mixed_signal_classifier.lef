@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO ls
+MACRO tt_um_subdiduntil2_mixed_signal_classifier
   CLASS BLOCK ;
-  FOREIGN ls ;
+  FOREIGN tt_um_subdiduntil2_mixed_signal_classifier ;
   ORIGIN 0.000 0.000 ;
   SIZE 161.000 BY 225.760 ;
   PIN clk
@@ -1346,14 +1346,14 @@ MACRO ls
         RECT 76.810 66.950 77.600 67.860 ;
       LAYER met3 ;
         RECT 76.760 67.710 77.650 67.835 ;
-        RECT 146.640 67.710 152.750 67.950 ;
-        RECT 76.420 66.540 152.750 67.710 ;
-        RECT 146.640 66.460 152.750 66.540 ;
-        RECT 151.520 10.480 152.680 66.460 ;
-        RECT 151.410 8.780 153.100 10.480 ;
+        RECT 76.420 66.540 143.360 67.710 ;
+        RECT 141.070 10.150 143.320 66.540 ;
+        RECT 141.010 7.280 143.430 10.150 ;
       LAYER met4 ;
-        RECT 151.455 8.775 153.055 10.485 ;
-        RECT 151.910 1.020 152.630 8.775 ;
+        RECT 141.055 8.470 143.385 10.155 ;
+        RECT 141.055 7.500 152.690 8.470 ;
+        RECT 141.055 7.275 143.385 7.500 ;
+        RECT 151.910 1.020 152.630 7.500 ;
         RECT 151.800 0.970 152.730 1.020 ;
         RECT 151.780 0.040 152.730 0.970 ;
         RECT 151.780 -0.010 152.710 0.040 ;
@@ -5275,6 +5275,6 @@ MACRO ls
         RECT 62.500 97.840 96.120 98.035 ;
         RECT 62.500 97.815 63.570 97.840 ;
   END
-END ls
+END tt_um_subdiduntil2_mixed_signal_classifier
 END LIBRARY
 
