@@ -7,7 +7,7 @@ MACRO tt_um_subdiduntil2_mixed_signal_classifier
   FOREIGN tt_um_subdiduntil2_mixed_signal_classifier ;
   ORIGIN 0.000 0.000 ;
   SIZE 161.000 BY 225.760 ;
-  PIN Vdd
+  PIN VDPWR
     ANTENNAGATEAREA 3.006000 ;
     ANTENNADIFFAREA 124.248398 ;
     PORT
@@ -926,7 +926,7 @@ MACRO tt_um_subdiduntil2_mixed_signal_classifier
       LAYER met4 ;
         RECT 143.830 224.760 144.130 225.760 ;
     END
-  END Vdd
+  END VDPWR
   PIN VGND
     ANTENNAGATEAREA 2.688000 ;
     ANTENNADIFFAREA 39.495998 ;
@@ -1635,7 +1635,7 @@ MACRO tt_um_subdiduntil2_mixed_signal_classifier
       LAYER met4 ;
         RECT 74.530 0.000 75.430 1.000 ;
     END
-  END En
+  END ua[4]
   PIN ua[5]
     DIRECTION INOUT ;
     USE SIGNAL ;
@@ -1643,7 +1643,7 @@ MACRO tt_um_subdiduntil2_mixed_signal_classifier
       LAYER met4 ;
         RECT 55.210 0.000 56.110 1.000 ;
     END
-  END Iout0
+  END ua[5]
   PIN ua[6]
     DIRECTION INOUT ;
     USE SIGNAL ;
@@ -1651,7 +1651,7 @@ MACRO tt_um_subdiduntil2_mixed_signal_classifier
       LAYER met4 ;
         RECT 35.890 0.000 36.790 1.000 ;
     END
-  END Iout1
+  END ua[6]
   PIN ua[7]
     DIRECTION INOUT ;
     USE SIGNAL ;
