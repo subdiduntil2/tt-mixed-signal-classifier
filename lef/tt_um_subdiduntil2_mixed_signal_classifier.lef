@@ -423,7 +423,7 @@ MACRO tt_um_subdiduntil2_mixed_signal_classifier
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 1.000 5.000 3.000 220.760 ;
+        RECT 19.710 4.940 21.710 220.700 ;
     END
   END VDPWR
   PIN VGND
@@ -431,7 +431,7 @@ MACRO tt_um_subdiduntil2_mixed_signal_classifier
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 4.000 5.000 6.000 220.760 ;
+        RECT 22.710 4.940 24.710 220.700 ;
     END
   END VGND
   OBS
